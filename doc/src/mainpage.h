@@ -710,7 +710,7 @@
  * checks if its \link OFIQ::QualityMeasureResult::code code\endlink member agrees with the value
  * \link OFIQ::QualityMeasureReturnCode::Success QualityMeasureReturnCode::Success\endlink.
  * 
- * As of version 1.0.3 it is possible to access pre-processing results computed during quality assessment.
+ * As of version 1.2.0 it is possible to access pre-processing results computed during quality assessment.
  * Therefore, the 
  * function \link OFIQ_LIB::OFIQImpl::vectorQualityWithPreprocessingResults vectorQualityWithPreprocessingResults\endlink is 
  * provided. Thus, instead of invoking \link OFIQ_LIB::OFIQImpl::vectorQuality vectorQuality\endlink as above, 
