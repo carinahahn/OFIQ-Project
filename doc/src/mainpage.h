@@ -710,7 +710,7 @@
  * checks if its \link OFIQ::QualityMeasureResult::code code\endlink member agrees with the value
  * \link OFIQ::QualityMeasureReturnCode::Success QualityMeasureReturnCode::Success\endlink.
  * 
- * As of version 1.2.0 it is possible to access pre-processing results computed during quality assessment.
+ * As of version 1.0.3 it is possible to access pre-processing results computed during quality assessment.
  * Therefore, the 
  * function \link OFIQ_LIB::OFIQImpl::vectorQualityWithPreprocessingResults vectorQualityWithPreprocessingResults\endlink is 
  * provided. Thus, instead of invoking \link OFIQ_LIB::OFIQImpl::vectorQuality vectorQuality\endlink as above, 
@@ -1026,7 +1026,7 @@
  * supported in the same way as they are supported by the linked OpenCV compilation.
  *
  * @section sec_release_notes Release notes
- * This is OFIQ v1.1.2. 
+ * This is OFIQ v1.2.0. 
  * The following table lists all measures and its implementation provided by this release of OFIQ. Details on the 
  * configuration and on requesting measures can be found
  * @ref sec_default_config "here". Note, the QAA identifiers listed in the table are defined in ISO/IEC 29794-5.
